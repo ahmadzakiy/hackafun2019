@@ -1,0 +1,16 @@
+[
+  {
+    "id": "indomie-goreng",
+    "name": "Indomie Goreng",
+    "price": 3000,
+    "qty": 1,
+    "checked": true
+  },
+  {
+    "id": "teh-kotak",
+    "name": "Teh Kotak",
+    "price": 4000,
+    "qty": 1,
+    "checked": true
+  }
+]
