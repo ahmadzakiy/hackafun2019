@@ -6,7 +6,7 @@ import {reactLocalStorage} from './helpers/localStorage';
 import Item from './components/Item';
 import Payment from './components/Payment';
 
-import ArrowLeft from './svg/arrow-left.svg';
+// import ArrowLeft from './svg/arrow-left.svg';
 import Store from './svg/home.svg';
 
 import DataItems from './data.json';
@@ -80,10 +80,10 @@ export default class App extends Component {
 
     return (
       <Wrapper>
-        <Header>
+        {/* <Header>
           <img src={ArrowLeft} alt="arrow icon"/>
           <h1>Keranjang Belanja</h1>
-        </Header>
+        </Header> */}
         <Mitra>
           <img src={Store} alt="store icon"/>
           <h3>{mitra}</h3>
@@ -120,25 +120,25 @@ const Wrapper = styled.div`
   padding-bottom: 80px;
 `
 
-const Header = styled.div`
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 10px;
-  background: #fff;
+// const Header = styled.div`
+//   position: relative;
+//   display: flex;
+//   flex-direction: row;
+//   justify-content: center;
+//   padding: 10px;
+//   background: #fff;
 
-  h1 {
-    margin: 0;
-    font-weight: 400;
-    font-size: 18px;
-  }
+//   h1 {
+//     margin: 0;
+//     font-weight: 400;
+//     font-size: 18px;
+//   }
 
-  img {
-    position: absolute;
-    left: 10px;
-  }
-`
+//   img {
+//     position: absolute;
+//     left: 10px;
+//   }
+// `
 
 const Mitra = styled.div`
   display: flex;
